@@ -1,7 +1,7 @@
 # use a node base image
 FROM node:7-onbuild
 
-# set maintainer
+# set maintainer, this is optional
 LABEL maintainer "miiro@getintodevops.com"
 
 # set a health check
